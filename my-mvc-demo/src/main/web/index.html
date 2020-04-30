@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试用首页</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="main-top">
+        <a href="/Demo/add.do?id=5">add.do</a>
+        <a href="/Demo/edit.do?date=2005-12-09">edit.do</a>
+        <a href="/Demo/delete.do?userId=6">delete.do</a>
+        <a href="/Demo/check.do?username=zhangsan&password=123&tel=123456">check.do</a>
+        <a href="form.html">form.html</a>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="main-bd">
+        <div class="info">
+            <p>请求路径：add.do</p>
+            <p>参数：id=5</p>
+            <p>方法参数：request, response, session,int id</p>
+        </div>
+        <div class="info">
+            <p>请求路径：edit.do</p>
+            <p>参数：null</p>
+            <p>方法参数：String aaa</p>
+        </div>
+        <div class="info">
+            <p>请求路径：delete.do</p>
+            <p>参数：userId=6</p>
+            <p>方法参数：String bbb</p>
+        </div>
+        <div class="info">
+            <p>请求路径：check.do</p>
+            <p>参数：username=zhangsan
+                <br/>,password=123,<br/>tel=123456</p>
+            <p>方法参数：HashMap map</p>
+        </div>
+        <div class="info">
+            <p>请求路径：form.do</p>
+            <p>跳转页面操作</p>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</body>
+</html>
